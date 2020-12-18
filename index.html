@@ -5,15 +5,25 @@
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <div class="intro">
+    <div class="heading">
     <h1>Mixed Messages</h1>
-    <p>Click the button to receive a positive random message.</p>
     </div>
-    <div class="button" id="button">
+    <section class="messageSection">
+        <div class="button" id="button">
         Click Me!
-    </div>
-    <div class="randomMessage">
-
-    </div>
+        </div>
+        <div class="messageArea">
+            <p id="greeting"></p>
+            <p id="positiveMessage"></p>
+            <p id="exitMessage"></p>
+        </div>
+        <div id='resetMessage'>ResetMessage</div>
+    </section>
+    <section class="jokeSection">
+        <div id="jokeButton">Press the button for a joke</div>
+        <div id="malfunctionedButton">Press it again, Button malfunctioned</div>
+        <div id="iPromiseButton">Press it again, last time I promise!!!</div>
+        <div id="joke"></div>
+    </section>
 </body>
 </html>
