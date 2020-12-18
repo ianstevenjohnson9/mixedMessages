@@ -1,5 +1,5 @@
 body {
-    background-color: forestgreen;
+    background-color: white;
     color: black;
     font-size: 16px;
 }
@@ -9,10 +9,19 @@ body {
     border: 2px solid yellow;
     border-radius: 30px;
 }
-
-.button {
-    background-color: orange;
+.messageSection {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
 
 }
+.button {
+    background-color: orange;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
 
 
