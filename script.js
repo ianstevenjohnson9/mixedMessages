@@ -6,12 +6,6 @@ const leaveGreetings = ['Farewell my friend.', 'Have a great day.', 'Cheerio.'];
 const randomMessage = Math.floor(Math.random() * messages.length);
 const randomLeaveGreeting = Math.floor(Math.random() * leaveGreetings.length);
 
-const script = document.createElement("script");
-
-
-
-// console.log(messages[randomMessage]);
-// console.log(leaveGreetings[randomLeaveGreeting]);
 
 let messageButton = document.getElementById('messageButton');
 let messageArea = document.getElementById('messageArea');
@@ -40,19 +34,3 @@ reset.onclick = function() {
 
     location.reload();
 }
-
-/*
-
-// Write anonymous event handler property and function for the first progress button
-nextOne.onclick = function() {
-  nextTwo.hidden = false;
-  nextOne.hidden = true;
-
-  document.getElementById('letter-note-five').innerHTML = 'D';
-  document.getElementById('letter-note-six').innerHTML = 'C';
-}
-
-
-
-*/
-
