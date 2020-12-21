@@ -36,16 +36,14 @@ h2 {
     text-align: center;
 
 }
- #messageButton, #resetMessage {
+ #messageButton, #reset {
     background-color: orange;
     color: black;
     margin: 20px;
     padding: 20px;
     border: 2px solid black;
     border-radius: 20px;
-    display: inline-block;
-
-}
+    }
 .messageArea {
     border: 2px solid black;
     border-radius: 20px;
