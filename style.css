@@ -44,11 +44,11 @@ h2 {
     border: 2px solid black;
     border-radius: 20px;
     }
-.messageArea {
+#messageArea {
     border: 2px solid black;
     border-radius: 20px;
     color: navy;
-    background-color: white;
+    background-color:white ;
 }
 
 
